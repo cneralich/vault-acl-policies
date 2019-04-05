@@ -1,5 +1,3 @@
-<<EOT
 path "secret/my_app" {
   policy = "write"
 }
-EOT
