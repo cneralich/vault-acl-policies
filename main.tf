@@ -1,5 +1,5 @@
-resource "vault_policy" "example" {
+resource "vault_policy" "dev-team" {
   name = "dev-team"
 
-  policy = "${file("./example.policy")}"
+  policy = "${file("./dev-team.policy")}"
 }
